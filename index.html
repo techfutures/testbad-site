@@ -36,12 +36,16 @@
 				<div class="link-bottom">
 					<a class="link-icon" href="https://portal.techfutures.xyz"><i class="icon ion-ios-home"></i> Customer Portal</a>
 					<a class="link-icon" href="mailto:support@techfutures.xyz"><i class="icon ion-ios-compose"></i> Email Us</a>
-
 				</div>
 
 	  		</div>
+			  
+			  <div id="logo" style="width: 25%; margin: auto">
+				<img src="img/cloudsingularity-light.svg" width=20% height=20% style="position: absolute; bottom:0;">
+			</div>
 
 		</div>
+
 
 	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
     <!-- ********** Resources jQuery ********** -->
@@ -59,4 +63,16 @@
 
 	</body>
 
+
+	<script type="application/javascript">
+		function getIP(json) {
+			
+			var pub_ip = document.createElement("p")
+			pub_ip.innerHTML = "Public IP address: " + json.ip
+			
+			setTimeout(function() {document.getElementById("message").appendChild(pub_ip)}, 7200)
+		}
+	</script>
+		
+	<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 </html>
