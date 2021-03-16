@@ -23,15 +23,15 @@ $(window).load(function() {
     });
     MESSAGES.push({
         delay: 800,
-        text: 'If you are reading me, that means you are not protected by Tech Futures edge network security.'
+        text: 'If you are reading me, that means you are not protected'
     });
     MESSAGES.push({
         delay: 1800,
-        text: 'Or there is a mis-configuration.'
+        text: 'by Tech Futures edge network security.'
     });
     MESSAGES.push({
         delay: 3200,
-        text: ' '
+        text: 'Or there is a mis-configuration.'
     });
     MESSAGES.push({
         delay: 4800,
