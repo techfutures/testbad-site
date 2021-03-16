@@ -19,23 +19,23 @@ $(window).load(function() {
     MESSAGES = [];
     MESSAGES.push({
         delay: 0,
-        text: 'ERROR 404 NOT FOUND'
+        text: 'Uh Oh!'
     });
     MESSAGES.push({
         delay: 800,
-        text: 'You may have mis-typed the URL.'
+        text: 'If you are reading me, that means you are not protected by Tech Futures edge network security.'
     });
     MESSAGES.push({
         delay: 1800,
-        text: 'Or the page has been removed.'
+        text: 'Or there is a mis-configuration.'
     });
     MESSAGES.push({
         delay: 3200,
-        text: 'Actually, there is nothing to see here...'
+        text: ' '
     });
     MESSAGES.push({
         delay: 4800,
-        text: 'Click on the links below to do something, Thanks!'
+        text: 'Need help? Use one of the links below to reach us!'
     });
     $container = $('#container');
     $message = $('#message');
